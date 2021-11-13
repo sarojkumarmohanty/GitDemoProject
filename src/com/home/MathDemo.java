@@ -10,4 +10,10 @@ public class MathDemo {
 	public int multiplication(int x,int y){
 		return x*y;
 	}
+	public int div( int x, int y){
+		if(y!=0)
+			return x/y;
+		else
+			return -1;
+	}
 }
